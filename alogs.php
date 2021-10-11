@@ -109,3 +109,26 @@
     }
 
     dd($dummyArray);
+     
+     
+     
+     
+//  Show Number Against Last Index Number 
+$array = [1,3,6,7,8,9];
+
+
+$count = sizeof($array)-1;
+foreach ($array as $key=>$value)
+{
+    if ($key < $count)
+    {
+        echo  $array[$key].'=>'.$array[$count].'<br>';
+        $count = $count -1;
+    }
+    elseif ($key == $count)
+    {
+        echo  $array[$key].'=>'.$array[$key].'<br>';
+
+    }
+}
+
