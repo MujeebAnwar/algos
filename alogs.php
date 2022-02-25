@@ -1,4 +1,4 @@
- // Pair of index that mak sum of given number
+ /// Pair of index that mak sum of given number
     $value = 15;
     $array = [1,14,29,21,12,3,30,-15,30];
     for ($i = 0 ; $i<sizeof($array);$i++)
